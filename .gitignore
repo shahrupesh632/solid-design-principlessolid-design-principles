@@ -1,17 +1,21 @@
-# Visual Studio
+# ===============================
+# Visual Studio / C++
+# ===============================
+
+# Visual Studio cache & user files
 .vs/
+*.slnx
 *.user
 *.suo
-*.slnx
 
-# Build outputs
+# Build output folders
 Debug/
 Release/
 x64/
 x86/
-out/
 bin/
 obj/
+out/
 
 # C++ intermediate files
 *.ipch
@@ -19,3 +23,9 @@ obj/
 *.ilk
 *.tlog
 *.log
+
+# CMake (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
